@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container" id="searchContainer">
+        <div class="content">
+            <h1>GitHub Profile <br> Search</h1>
+            <p class="subtitle">
+                Enter a GitHub username to view the most <br>
+                recent statistics.
+            </p>
+            <input type="text" id="username" placeholder="Enter a GitHub username">
+            <button onclick="searchBtn()" class="search-btn">
+                <span class="icon"><i class="fa-solid fa-magnifying-glass"></i></span> Search GitHub Profile
+            </button>
+            <footer>
+                <p>Script created by Anaintay</p>
+            </footer>
+        </div>
+
+    </div>
+    <div id="userDataShow">
+        <div class="profile-card" id="profileCard">
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

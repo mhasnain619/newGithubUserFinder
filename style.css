@@ -1,0 +1,275 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, sans-serif; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.container {
+    background-color: #fff;
+    width: 500px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+
+content {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+button.search-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button.search-btn:hover {
+    background-color: #555;
+}
+
+button.search-btn .icon {
+    margin-right: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.profile-card {
+    width: 500px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #1b1b1b;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hrRow {
+    height: 1px;
+    background-color: #4f4f50;
+    border-radius: 20px;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.profile-header {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.profile-div {
+    display: flex;
+}
+
+.profile-photo img {
+    width: 200px;
+    height: 220px;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.fa-circle {
+    font-size: 18px;
+    color: #FF6F00;
+}
+
+.name {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.bio {
+    text-align: start;
+    font-size: 1rem;
+    padding: 0px 15px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.location,
+.email {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    text-align: start;
+}
+
+.social-links,
+.blog {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 3px 20px;
+    gap: 25px;
+}
+
+.bloglink {
+    text-decoration: none;
+}
+
+.social-links i {
+    text-align: start;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.social-links p {
+    /* text-align: start; */
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    margin: 5px;
+}
+
+.blog p {
+    /* text-align: start; */
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    margin: 5px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.stats p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.repositories {
+    margin-top: 15px;
+}
+
+.repositories h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.repo-item {
+    list-style: none;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #333;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.repo-item.javascript {
+    background-color: #f9d5d5;
+}
+
+.repo-item.exchange {
+    background-color: #d5d9f9;
+}
+
+.repo-item.airline {
+    background-color: #f9d5e3;
+}
