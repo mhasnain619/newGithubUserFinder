@@ -20,6 +20,7 @@ const fetchUserData = async (username) => {
         if (!fetchData.ok) {
             if (fetchData.status === 404) {
                 Swal.fire("User Not Found...!!");
+                searchContainer.style.display = 'block';
             } else {
                 Swal.fire("An error occurred. Please try again later.");
             }
